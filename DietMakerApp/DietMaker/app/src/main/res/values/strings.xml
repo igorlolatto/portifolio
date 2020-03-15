@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Diet Maker</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Diet Maker</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Fale com o nutricionista</string>
+    <string name="menu_slideshow">Dicas Alimentares</string>
+    <string name="menu_tools">Manual do usuário</string>
+    <string name="menu_share">Fale conosco</string>
+    <string name="menu_send">Seja premium</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_nova_dieta">NovaDieta</string>
+</resources>

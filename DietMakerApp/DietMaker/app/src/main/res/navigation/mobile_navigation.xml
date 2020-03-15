@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.dietmaker.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+        <fragment
+            android:id="@+id/nav_gallery"
+            android:name="com.example.dietmaker.ui.gallery.GalleryFragment"
+            android:label="@string/menu_gallery"
+            tools:layout="@layout/fragment_gallery" />
+
+        <fragment
+            android:id="@+id/nav_slideshow"
+            android:name="com.example.dietmaker.ui.slideshow.SlideshowFragment"
+            android:label="@string/menu_slideshow"
+            tools:layout="@layout/fragment_slideshow" />
+
+        <fragment
+            android:id="@+id/nav_tools"
+            android:name="com.example.dietmaker.ui.tools.ToolsFragment"
+            android:label="@string/menu_tools"
+            tools:layout="@layout/fragment_tools" />
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.example.dietmaker.ui.share.ShareFragment"
+
+        android:label="@string/menu_share"
+        tools:layout="@layout/fragment_share" />
+
+    <fragment
+        android:id="@+id/nav_send"
+        android:name="com.example.dietmaker.ui.send.SendFragment"
+        android:label="@string/menu_send"
+        tools:layout="@layout/fragment_send" />
+    <fragment
+        android:id="@+id/logout"
+        android:name="com.example.dietmaker.telas.Logout"
+        android:label="fragment_logout"
+        tools:layout="@layout/fragment_logout" />
+    <fragment
+        android:id="@+id/novaDieta"
+        android:name="com.example.dietmaker.telas.NovaDieta"
+        android:label="fragment_nova_dieta"
+        tools:layout="@layout/fragment_nova_dieta" />
+    <!--    <fragment-->
+<!--        android:id="@+id/testeFragment"-->
+<!--        android:name="com.example.dietmaker.telas.GanhodePeso"-->
+<!--        android:label="fragment_ganho__peso"-->
+<!--        tools:layout="@layout/fragment_ganho__peso" />-->
+</navigation>
