@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Contador</string>
+    <string name="contador">Repetição</string>
+    <string name="zerar">Zerar</string>
+    <string name="comecar">Adicionar</string>
+</resources>
